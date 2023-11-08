@@ -30,21 +30,26 @@ nav {
 }
 
 .view {
+  display: none;
   text-align: center;
   padding: 20px;
 }
 
 #view-1 {
-  background-color: #5a3248;
+  display: none;
+  background-color: #af4a82;
 }
 
 #view-2 {
-  background-color: #3f0f0f;
+  display: none;
+  background-color: #35c0a9;
 }
 #view-3 {
+  display: none;
   background-color: #a5a1a1;
 }
 
 #view-4 {
+  display: none;
   background-color: #2b4750;
 }
