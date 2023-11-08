@@ -1,66 +1,50 @@
 /* styles.css */
-* {
-  box-sizing: border-box;
-}
 
 body {
-  background-color: #cac9bb;
+  font-family: Arial, sans-serif;
   margin: 0;
+  padding: 0;
 }
 
-/* Style the header */
-.header {
-  background-color: #f1f1f1;
-  padding: 20px;
-  text-align: center;
-}
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
+header {
   background-color: #333;
-}
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding: 20px;
 }
 
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: green;
-}
-.main-content {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  padding: 10px;
 }
 
-.left-column, .right-column {
-    flex-basis: 48%;
+.nav-pane {
+  cursor: pointer;
+  margin: 0 20px;
 }
 
-h1 {
-    font-size: 36px;
-    color:red;
-    margin: 0;
+.main {
+  display: none;
 }
 
-h2 {
-    font-size: 24px;
+.view {
+  text-align: center;
+  padding: 20px;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+#view-1 {
+  background-color: #5a3248;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
+#view-2 {
+  background-color: #3f0f0f;
+}
+#view-3 {
+  background-color: #a5a1a1;
+}
+
+#view-4 {
+  background-color: #2b4750;
 }
