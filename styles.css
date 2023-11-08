@@ -6,6 +6,13 @@ body {
   padding: 0;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
 header {
   background-color: #333;
   color: white;
@@ -24,7 +31,9 @@ nav {
   cursor: pointer;
   margin: 0 20px;
 }
-
+.nav-pane:hover {
+  color: #1dff42;
+}
 .main {
   display: none;
 }
@@ -37,19 +46,28 @@ nav {
 
 #view-1 {
   display: none;
-  background-color: #af4a82;
+  background-color: #648c99;
 }
 
 #view-2 {
   display: none;
-  background-color: #35c0a9;
+  background-color: #648c99;
 }
 #view-3 {
   display: none;
-  background-color: #a5a1a1;
+  background-color: #648c99;
 }
 
 #view-4 {
   display: none;
-  background-color: #2b4750;
+  background-color: #648c99;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
 }
