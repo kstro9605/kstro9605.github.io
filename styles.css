@@ -170,6 +170,9 @@ footer {
 a.selected{
   color: #C9D182;
 }
+#summaryPane{
+  margin-top:155px;
+}
 
 @media only screen{
   img.college{
