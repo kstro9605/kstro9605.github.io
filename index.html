@@ -7,52 +7,35 @@
     <title>Kyle Strother</title>
 </head>
 <body>
-    <header>
-        <header>
-            <h1>Kyle Strother</h1>
-            <p>Software Developer</p>
-        </header>
-    </header>
-    <nav>
-        <div class="nav-pane" id="nav-pane-1">Summary</div>
-        <div class="nav-pane" id="nav-pane-2">Education</div>
-        <div class="nav-pane" id="nav-pane-3">Experience</div>
-        <div class="nav-pane" id="nav-pane-4">Skills</div>
-    </nav>
-    <main>
-        <div class="view" id="view-1">
-            <h2>Summary</h2>
-            <p>
-                Brief summary of your skills, experience, and career objectives.
-            </p>
+    <div class="topBar">
+        <div id="myTopnav" class="topnav">
+          <a class="selected" href="#">Summary</a>
+          <a href="Education.html">Education</a>
+          <a href="#">Experience</a>
+          <a href="#">Skills</a>
+          <a href="#">Contact Info</a>
         </div>
-        <div class="view" id="view-2">
-            <h2>Education</h2>
-            <p>
-                Your Education details here.
-            </p>
+        <div id="mySidenav" class="sidenav">
+          <a class="closebtn" href="javascript:void(0)"  onclick="closeNav()">&times;</a>
+          <a class="selected" href="#">Summary</a>
+          <a href="Education.html">Education</a>
+          <a href="#">Experience</a>
+          <a href="#">Skills</a>
+          <a href="#">Contact Info</a>
         </div>
-        <div class="view" id="view-3">
-            <h2>Experience</h2>
-            <p>
-                Your work experience details here.
-            </p>
-        </div>
-        <div class="view" id="view-4">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>Java</li>
-                <li>Web Development</li>
-            </ul>
-        </div>
-    </main>
-    <footer>
-        <p>Contact: placeholder</p>
-    </footer>
+        <span class="hamburger"  onclick="openNav()">&#9776;</span>
+  
+        <h2>Summary</h2>
+      </div>
+      
+      <p>
+        Info On me.
+      </p>
+     
+       <footer>
+       <p>Find Kyle on LinkedIn</p>
+         <a href="https://www.linkedin.com"><img src="https://cdn3.iconfinder.com/data/icons/inficons/512/linkedin.png" width="40"/></a>
+      </footer>
     <script src="script.js"></script>
 </body>
 </html>

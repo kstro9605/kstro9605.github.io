@@ -1,73 +1,232 @@
-/* styles.css */
-
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Lato", sans-serif;
+  height: 100%;
   margin: 0;
-  padding: 0;
+  margin-bottom: 100px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#6F97CA,#1D1E20);
+}
+a:link {
+  color: white;
+}
+
+a:hover {
+  color: #C9D182;
+}
+
+a:visited {
+  color: #C9D170;
+}
+
+h2{
+  display: inline-block;
+  width: 85vw;
+  text-align: center;
+  padding: 5px;
+  color:#CCCCCC;
+  text-shadow: rgb(11, 11, 11) 0px 0px 5px;
+}
+
+.topBar{
+  background-image: linear-gradient(#4B5E84,#1D1E20);
+  text-align:center;
+  width:100%;
+  position: fixed;
+  top:0;
+  
+}
+.headshot{
+  margin-top:155px;
+  display:block;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.college{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding 4%;
+  margin-top:125px;
+  margin-bottom:10vh;
+}
+
+.textCentered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  color:#CCCCCC;
+  padding 4%;
+  margin-top:1%;
+}
+.colWork{
+  margin-top:155px;
+  text-align:center;
+  
+}
+.collapsible {
+  border: 4px ridge #566981;
+  background-image: linear-gradient(#919191,#CCCCCC);
+  width:auto;
+  height:115px;
+  text-align:center;
+  margin:1%;
+  margin-left:auto;
+  margin-right:auto;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  width:70%;
+  max-height:0;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  overflow: hidden;
+  color: #f1f1f1;
+  transition: max-height 0.2s ease-out;
+}
+
+.blocks{
+  text-align:center;
+  width:92%;
+  margin-left:auto; 
+  margin-right:auto;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 18px;
+}
+.langs{
+  border: 4px ridge #566981;
+  width: 26vw;
+  display: table-cell;
+  background: gray;
+  background-image: linear-gradient(#919191,#CCCCCC);
 }
 
 footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding:1px;
+   margin-top:3px;
+   background-color: #181818;
+   color: white;
+   text-align: center;
+  position: fixed;
+}
+.hamburger{
+  font-size:30px;
+  cursor:pointer;
+  background:#4B5E84;
+  padding:2px;
+  border: 3px ridge #566981;
+  text-align:left;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
   position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;            /* Footer height */
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
-header {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px;
+a.selected{
+  color: #C9D182;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-  background-color: #444;
-  padding: 10px;
+@media only screen{
+  img.college{
+    width:45%;
+    min-width:450px;
+  }
 }
 
-.nav-pane {
-  cursor: pointer;
-  margin: 0 20px;
-}
-.nav-pane:hover {
-  color: #1dff42;
-}
-.main {
-  display: none;
-}
+@media screen and (min-width: 550px){
+  .topnav {
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: visible;
+    transition: 0.5s;
+    padding-top: 10px;
+  }
 
-.view {
-  display: none;
-  text-align: center;
-  padding: 20px;
-}
+  .topnav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: inline;
+    transition: 0.3s;
+  }
 
-#view-1 {
-  display: none;
-  background-color: #648c99;
+  .topnav a:hover {
+    color: #f1f1f1;
+  }
+  a.selected{
+    color: #C9D182;
+  }
+  .hamburger{
+    display:none;
+  }
+  #mySidenav{
+     width:0px;
+  }
 }
-
-#view-2 {
-  display: none;
-  background-color: #648c99;
-}
-#view-3 {
-  display: none;
-  background-color: #648c99;
-}
-
-#view-4 {
-  display: none;
-  background-color: #648c99;
-}
-
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-#content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+@media screen and (max-width: 550px){
+  .topnav{
+    display:none;
+  }
+  .langs{
+    display:block;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .collapsible{
+    width:80vw;
+  }
+  
+  .colImg{
+    width:75vw;
+  }
 }
