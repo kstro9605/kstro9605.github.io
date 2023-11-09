@@ -3,6 +3,7 @@ body {
   height: 100%;
   margin: 0;
   margin-bottom: 100px;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-image: linear-gradient(#6F97CA,#1D1E20);
 }
