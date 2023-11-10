@@ -49,13 +49,21 @@ img.college{
   margin-left: auto;
   margin-right: auto;
   margin-top:4px;
-  margin-bottom:10vh;
+  margin-bottom:12px;
 }
 
 .textCentered{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align:center;
+  color:#CCCCCC;
+  margin-top:6px;
+}
+.textCentered-Summary{
+  display: block;
+  margin-left: 7%;
+  margin-right: 7%;
   text-align:center;
   color:#CCCCCC;
   margin-top:6px;
@@ -103,6 +111,7 @@ img.college{
   display: table;
   border-collapse: separate;
   border-spacing: 18px;
+  padding-bottom: 8px;
 }
 .langs{
   border: 4px ridge #566981;
