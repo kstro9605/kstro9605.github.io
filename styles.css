@@ -37,7 +37,7 @@ h2{
   
 }
 .headshot{
-  margin-top:4px;
+  margin-top:10px;
   display:block;
   text-align:center;
   margin-left: auto;
@@ -48,7 +48,6 @@ img.college{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 8%;
   margin-top:4px;
   margin-bottom:10vh;
 }
@@ -59,8 +58,7 @@ img.college{
   margin-right: auto;
   text-align:center;
   color:#CCCCCC;
-  padding: 4%;
-  margin-top:1%;
+  margin-top:6px;
 }
 .colWork{
   margin-top:4px;
@@ -174,6 +172,7 @@ a.selected{
 #contentPane{
   margin-top:4px;
   height: 75vh;
+  margin-bottom: 12px;
 }
 
 @media only screen{
