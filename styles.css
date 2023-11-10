@@ -49,7 +49,7 @@ img.college{
   margin-left: auto;
   margin-right: auto;
   padding: 8%;
-  margin-top:125px;
+  margin-top:auto;
   margin-bottom:10vh;
 }
 
@@ -63,7 +63,7 @@ img.college{
   margin-top:1%;
 }
 .colWork{
-  margin-top:155px;
+  margin-top:auto;
   text-align:center;
   
 }
@@ -123,7 +123,7 @@ footer {
    background-color: #181818;
    color: white;
    text-align: center;
-  position: sticky;
+   position: fixed;
 }
 .hamburger{
   font-size:30px;
@@ -172,7 +172,7 @@ a.selected{
   color: #C9D182;
 }
 #contentPane{
-  margin-top:155px;
+  margin-top:auto;
   height: 75vh;
 }
 
