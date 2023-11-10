@@ -67,7 +67,7 @@ img.college{
   text-align:center;
   color:#CCCCCC;
   margin-top:18px;
-  line-height:2;
+  line-height:1.8;
 }
 .colWork{
   margin-top:4px;
@@ -236,7 +236,7 @@ a.selected{
     width:90%;
     margin-left:auto;
     margin-right:auto;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
   }
   .blocks{
     text-align:center;
@@ -246,7 +246,7 @@ a.selected{
     display: table;
     border-collapse: separate;
     border-spacing: 18px;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
   }
   .collapsible{
     width:80vw;
