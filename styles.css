@@ -47,7 +47,7 @@ img.college{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding 4%;
+  padding: 8%;
   margin-top:125px;
   margin-bottom:10vh;
 }
@@ -58,7 +58,7 @@ img.college{
   margin-right: auto;
   text-align:center;
   color:#CCCCCC;
-  padding 4%;
+  padding: 4%;
   margin-top:1%;
 }
 .colWork{
