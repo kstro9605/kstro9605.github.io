@@ -48,8 +48,8 @@ img.college{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top:4px;
-  margin-bottom:12px;
+  margin-top:8px;
+  margin-bottom:24px;
 }
 
 .textCentered{
@@ -62,11 +62,11 @@ img.college{
 }
 .textCentered-Summary{
   display: block;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 10%;
+  margin-right: 10%;
   text-align:center;
   color:#CCCCCC;
-  margin-top:6px;
+  margin-top:18px;
 }
 .colWork{
   margin-top:4px;
@@ -112,6 +112,7 @@ img.college{
   border-collapse: separate;
   border-spacing: 18px;
   padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .langs{
   border: 4px ridge #566981;
@@ -119,6 +120,7 @@ img.college{
   display: table-cell;
   background: gray;
   background-image: linear-gradient(#919191,#CCCCCC);
+  margin-bottom: 8px;
 }
 
 footer {
