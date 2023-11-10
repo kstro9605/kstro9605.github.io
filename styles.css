@@ -60,6 +60,16 @@ img.college{
   color:#CCCCCC;
   margin-top:6px;
 }
+.textCentered-expand{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  color:#CCCCCC;
+  margin-top:6px;
+  font-style: italic;
+  font-weight: bold;
+}
 .textCentered-Summary{
   display: block;
   margin-left: 10%;
